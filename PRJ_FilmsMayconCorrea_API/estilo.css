@@ -1,0 +1,271 @@
+.header {
+    background-color: #b1b1b1;
+}
+
+.header-area {
+    padding: 20px;
+}
+.logo {
+    border: 1px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    height: 40px;
+}
+
+.main{
+    /* background-color: #e7e7e7; */
+    padding: 0!important;
+}
+
+.footer {
+    background-color: #b1b1b1;
+    
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
+}
+.area-descricao-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.span-bold{
+    font-weight: bold;
+}
+
+.header-area .nav .nav-link {
+    color: black;
+}
+
+.nav-link .active {
+
+    color: rgb(24, 81, 240)!important;
+}
+
+.header-area .nav a:hover{
+    color: rgb(24, 81, 240);
+}
+
+.header-area .nav-link {
+    font-weight: bold;
+}
+
+.header-area .nav span {
+    display: flex;
+    align-items: center;
+}
+
+.header-area .nav input {
+    width: 140px;
+}
+
+#div-search{
+    background-color: white;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+#input-search{
+
+    border: none;
+    margin-left: 5px;
+}
+
+#input-search:focus{
+    outline: 0;
+}
+
+
+.section-1{
+    padding: 0;
+    background-color: #e7e7e7;
+}
+
+.section-1 h1 {
+    font-weight: bold;
+}
+
+.section-4 {
+    padding: 0;
+    background-color: white;
+}
+
+.section-4 .area-redes-sociais a {
+  color: black
+}
+
+.section-4 .area-redes-sociais {
+  font-size: 35px;
+}
+
+.section-4 h2 {
+    font-weight: bold;
+}
+
+.section-3 {
+    padding: 0;
+    background-color: #e7e7e7;
+}
+
+.section-3 h2 {
+    font-weight: bold;
+}
+
+.section-2{
+    padding: 0;
+    background-color: white;
+}
+
+.section-2 h2 {
+    font-weight: bold;
+}
+
+#titulo-lancamento{
+    padding: 20px 0;
+}
+
+.area-descricao-video h2{
+    font-size: 20px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    background: rgba(0,0,0,.1);
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.icone-editorial {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.p-nome-filme{
+    display: inline;
+    font-weight: 400;
+}
+
+.section-3 .nome-filme {
+    font-size: 20px;
+}
+
+.section-2 #btnGroupDrop1 {
+    border: 1px solid;
+}
+
+.section-2 .btn-group {
+    width: 100%;
+}
+
+
+#icon-user{
+    background-color: rgb(180, 179, 179);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icon-user #icon-circle {
+    border: 3px solid #5e5e5e;
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+#icon-user i {
+    color: #5e5e5e;
+    width: fit-content;
+    height: fit-content;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+}
+
+.avaliacoes{
+    font-size: 15px;
+}
+.avaliacoes .star-and-data {
+    display: flex;
+    justify-content: space-between;
+}
+.avaliacoes .star-and-data span{
+    font-size: 15px;
+}
+.nome-avaliador {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.carousel-item .nome-filme {
+    font-size: 25px;
+}
+
+.carousel-item .area-nome {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* width: 90%; */
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.carousel-item .elenco div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 15px;
+    padding-right: 10px;
+    /* width: 90%; */
+}
+
+.carousel-item .stars {
+    color: gray;
+    padding-left: 5px;
+}
+
+.carousel-indicators li{
+    background: rgb(75, 74, 74);
+    background-clip: none;
+    border-top: none;
+    border-bottom: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+@media (max-width: 400px) {
+    #area-video {
+        padding-left: 15px !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    #area-video iframe {
+        width: 320px;
+        height: 300px;
+    }
+
+    #container{
+        margin: 0 5px !important;
+    }
+}
