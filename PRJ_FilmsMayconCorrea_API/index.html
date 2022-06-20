@@ -4,30 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes com API - Maycon Correa</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="estilo.css">
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
-    <title>Home</title>
+    <title>Página inicial</title>
 </head>
 <body>
+    <section class="home" style="height: 529px;">
+    <div id="particles-js" style="position: fixed; width: 100%; z-index: -10;"><canvas class="particles-js-canvas-el" width="1903" height="601" style="width: 100%; height: 100%;"></canvas></div>
+        <script type = "text/javascript" src="particles.js-master/particles.js"></script>
+        <script type = "text/javascript" src="particles.js-master/demo/js/app.js"></script>
     <header class="container-fluid header">
         <div class="row"> 
             <div class="col-12 header-area">
                 <div class="row">
 
                     <div class="col-sm-12 col-md-3 col-lg-2 area_logo">
-                        <div class="logo">
-                            <span class="span-bold">Logo</span>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                            <img src="img_dev/LogoPortalMD.png" alt="" style="width: 100%;">
                         </div>
                     </div>
 
                     <nav class="nav col-sm-12 col-md-9 col-lg-9 justify-content-end">
                         <div class="row">
                             
-                            <a class="nav-link active" href="index.html">Populares</a>
+                            <a class="nav-link" href="index.html">Populares</a>
 
                             <div class="col-sm-12 col-md-2 col-lg-1 mr-2">                                
                                 <div id="div-search">
@@ -35,7 +40,7 @@
                                     <input id="input-search">
                                     <i class="fa fa-times-circle-o" aria-hidden="true"></i>
                                 </div>
-                                <button id="btn-busca" class="mt-3 btn btn-primary">Buscar</button>
+                                <button id="btn-busca" class="mt-3 btn btn-primary">Pesquisar</button>
                             </div>
 
 
@@ -48,7 +53,8 @@
         </div>
     </header>
 
-    <main class="container-fluid" style="width: 90%;">
+    <main>
+    <section class ="container-fluid" style="width: 90%;">
 
         <div class="row mb-4" id="row-populares">
             <div class="col-12 text-center mb-4">
@@ -78,15 +84,171 @@
 
             </div>
         </div>
+    <!--Avaliações-->
+    <div class="container">
+        <div class="row Ultimas_row1">
+            <!--Ultimas Avaliacoes-->
+            <h1><strong>Últimas Avaliações</strong></h1>
+        </div>
+        <div class="row g-0 avaliadores">
+            <div class="col-md-4 col-lg-1">
+                <img src="img_dev/MayconDouglas.jpg" class="rounded-circle img-fluid" alt="">
+            </div>
+            <div class="col-md-7 col-lg-2">
+                <br>
+                <h5 class="mt-0"><strong>Maycon Douglas Correa</strong></h5>
+                <!--Avaliador(a)-->
+                <p><strong>Filme: Resgate do Coração</strong> Esse filme me prendeu minha atenção, desde as primeiras cenas. Comecei achando que era um drama clichê, mas a evolução dos personagens e da história foram me prendendo aos poucos. Achei o final surpreendente! <br>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    <strong> 19/04/2022</strong>
+                </p>
 
+            </div>
+            <div class="col-md-4 col-lg-1">
+                <img src="img_dev/grz.jpg" class="rounded-circle img-fluid" alt="">
+            </div>
+            <div class="col-md-7 col-lg-2">
+                <br>
+                <h5 class="mt-0"><strong>Graziele Rodrigues</strong></h5>
+                <!--Avaliador(a)-->
+                <p><strong>Filme: La Casa de Papel 3</strong> Apaixonei com o enredo do filme e nunca pensava que o final poderia ser da forma apresentada! Espero que a trilogia continue, adorei! <br>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    <strong> 17/04/2022</strong>
+                </p>
 
+            </div>
+            <div class="col-md-4 col-lg-1">
+                <img src="img_dev/lane.jpg" class="rounded-circle img-fluid" alt="">
+            </div>
+            <div class="col-md-7 col-lg-2">
+                <br>
+                <h5 class="mt-0"><strong>Gislane Silva</strong></h5>
+                <!--Avaliador(a)-->
+                <p><strong>Filme: Velozes e furiosos 9</strong> Atualmente os últimos filmes da franquia Velozes e Furiosos veem cada vez mais apresentando cenas que estão bem distante da realidade, contudo não deixa prender a atenção do telespectador através de seu enredo e cenas impactantes. <br>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="far fa-star"></i><i class="far fa-star"></i>
+                    <strong>16/04/2022</strong>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <!--Button-->
+            <div class="d-grid gap-2 d-sm-flex justify-content-md-end">
+                <button class="btn btn-danger" type="button">+ Carregar mais Avaliações</button>
+            </div>
+        </div>
+    </div>
 
+        <!--Novidades-->
+        <section class="part4">
+        <div class="container">
+            <div class="row" style="margin-bottom: 60px;margin-top: 10px;">
+                <div class=" col-12 col-sm-12 col-md-12 col-lg-8 campo_novidades">
+                    <h1><strong>Novidades</strong></h1>
+                    <div class="row g-0 position-relative"
+                        style="background-color: lightgray; margin-bottom: 10px;">
+                        <div class="col-md-4 mb-md-0 p-md-4">
+                            <a href="https://www.adorocinema.com/noticias/filmes/noticia-163178">
+                            <img src="img_dev/Thor4.jpg" class="w-100 rounded-start" alt="...">
+                        </a>
+                        </div>
+                        <div class="col-md-8 p-4 ps-md-0">
+                            <h4 class="mt-0"><strong>19/04/2022 - Adoro Cinema - Thor 4</h5></strong>
+                                <p>Fãs encontram erro que quase passou despercebido em primeiro trailer do filme.</p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <h5><span class="badge rounded-pill bg-dark">Thor: Love And Thunder</span></h5>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <h5><span class="badge rounded-pill bg-info"
+                                                style="color: black;">MARVEL</span></h5>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                    <div class="row g-0 bg-light position-relative">
+                        <div class="col-md-4 mb-md-0 p-md-4">
+                            <a href="https://academiabrasileiradecinema.com.br/inscricoes-para-o-gp2022">
+                            <img src="img_dev/premiobrasileiro.jpg" class="w-100 rounded-start" alt="...">
+                        </a>
+                        </div>
+                        <div class="col-md-8 p-4 ps-md-0">
+                            
+                            <h4 class="mt-0"><strong>01/04/2022 - Academia Brasileira de Cinema</strong> </h5>
+                                <p><strong></strong>Inscrições encerradas para o grande prêmio do cinema brasileiro 2022</p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <h5><span class="badge rounded-pill bg-warning" style="color: black;">Cinema Brasil</span></h5>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <h5><span class="badge rounded-pill bg-danger"
+                                                style="color: white;">Academia Brasileira de Cinema</span></h5>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                    <div class="row g-0 position-relative" style="background-color: lightgray;">
+                        <div class="col-md-4 mb-md-0 p-md-4">
+                            <a href="https://www.bbc.com/portuguese/geral-61046671">
+                            <img src="img_dev/Smith.jpg" class="w-100 rounded-start" alt="...">
+                        </a>
+                        </div>
+                        <div class="col-md-8 p-4 ps-md-0">
+                            <h4 class="mt-0">
+                                <strong>08/04/2021 - BBC News: Will Smith é supenso do Oscar e de outros eventos da Academia de Artes e Ciências Cinematográficas dos Estados Unidos por 10 anos.</strong> </h5>
+                                <p>A decisão é uma punição pelo tapa que o ator deu no comediante Chris Rock no Oscar, em março deste ano.</p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <h4><span class="badge rounded-pill bg-success">BBC NEWS</span></h4>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <h4><span class="badge rounded-pill bg-dark">Oscar 2022</span></h4>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                    <h1><strong>Sobre</strong></h1>
+                    <p>Site desenvolvido como trabalho da disciplina de Desenvolvimento de Interfaces Web (5787100) do período letivo 2022/1 da PUC MINAS Contagem</p>
+                    <p>Agradeço a todos os contribuintes com ideias de conteúdo, titulos de filmes indicados e pesquisas respondidas.</p>
+                    <strong>
+                        <p>Muito obrigado por acessar essa página e fico aberto as feedbacks com críticas e sugestões.</p>
+                    </strong>
+                    <h1><strong>Referenciais Editoriais</strong></h1>
+                    <i class="fas fa-user-alt" style="font-size: x-large;"></i> <strong>Redação: </strong> Maycon Douglas Correa<br>
+                    <i class="fas fa-user-alt" style="font-size: x-large;"></i> <strong>Pesquisa: </strong> Maycon Douglas e Amigos<br>
+                    <i class="fas fa-user-alt" style="font-size: x-large;"></i> <strong>Programador: </strong>Maycon Douglas Correa<br><br><br>
+                    
+                    <h1><strong>Redes sociais:</strong></h1>
+                    <ul class="list-inline" style="font-size: x-large;">
+                        <li class="list-inline-item"><i class="fab fa-twitter"></i> <a href="https://twitter.com/" class="text-decoration-none" style="color: rgb(182, 38, 38);"><strong>Twitter</strong></a></li>
+                        <li class="list-inline-item"><i class="fab fa-facebook-square"></i> <a href="https://www.facebook.com/" class="text-decoration-none" style="color: rgb(182, 38, 38);"><strong>Facebook</strong></a></li>
+                        <li class="list-inline-item"><i class="fab fa-instagram">  </i> <a href="https://www.facebook.com/" class="text-decoration-none" style="color: rgb(182, 38, 38);"><strong>Instagram</strong></a></li>
+                    </ul>
 
+                </div>
+            </div>
+        </div>
+    </section>
     </main>
-
-
- 
-
+    <footer class="footer bg-dark">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 footer_area">
+                    <p>Desenvolvimento de Interfaces Web (5787100) - 2022/1 </p> 
+                    
+                    Aluno Maycon Douglas Correa
+                    <p><strong> PUC MINAS CONTAGEM</strong> </p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <img src="img_dev/LogoPortalMD.png" alt="" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
